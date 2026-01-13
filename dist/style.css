@@ -1,0 +1,73 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+  text-align: center; /*Learnt this today*/
+}
+
+.content-container {
+  background-color: hsl(0, 0%, 12%);
+  max-width: 24.125rem;
+  padding: 2.5rem;
+  border-radius: 1rem;
+}
+
+.user-profile img {
+  border-radius: 50%; /*Learnt this today*/
+  width: 5.625rem;
+}
+.user-profile h1 {
+  font-size: 1.5rem;
+}
+.user-profile p {
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 1.875rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+.button button {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  height: 2.875rem;
+  min-width: 19.125rem;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 200ms ease-in-out; /*Learnt this today*/
+}
+.button button:not(:last-child) { /*Learnt this today*/
+  margin-bottom: 1rem;
+}
+
+.button button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}/*# sourceMappingURL=style.css.map */
